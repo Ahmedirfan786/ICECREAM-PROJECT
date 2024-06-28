@@ -1,0 +1,422 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\website\\website_userfaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\website\\website_userfaq.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\recipe\\recipe_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\recipe\\recipe_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\book\\book_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\book\\book_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\book\\book_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\book\\book_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\recipe\\recipe_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\recipe\\recipe_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\userrecipe\\userrecipe_submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\userrecipe\\userrecipe_submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\website\\website_feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\website\\website_feedback.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\website\\website_orderform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\website\\website_orderform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\website\\website_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\website\\website_contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\faq\\faq_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\faq\\faq_edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\faq\\faq_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\faq\\faq_create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\shared\\dashboard_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\shared\\dashboard_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\models\\userfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\models\\userfaq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\recipe\\recipe_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\recipe\\recipe_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\faq\\faq_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\faq\\faq_details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\userrecipe\\userrecipe_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\userrecipe\\userrecipe_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\views\\book\\book_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\views\\book\\book_detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|c:\\users\\pc\\source\\repos\\newicecream\\icecream\\icecream\\data\\migrations\\20240305141442_addedaddresscolumntoorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C26B682-87F8-4FEA-87F9-030CCD3CBFA6}|Icecream\\Icecream.csproj|solutionrelative:icecream\\data\\migrations\\20240305141442_addedaddresscolumntoorderstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Icecream\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Models\\Order.cs",
+              "RelativeToolTip": "Icecream\\Models\\Order.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowBMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T14:13:32.801Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "recipe_edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_edit.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Recipe\\recipe_edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_edit.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Recipe\\recipe_edit.cshtml",
+              "ViewState": "AQIAAAsAAAAA9KaP1MYKwBQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:52:18.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Icecream\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Icecream\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAAAKwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T12:47:23.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "book_create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_create.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Book\\book_create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_create.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Book\\book_create.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAgrAgkwBMAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:53:18.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "recipe_create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_create.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Recipe\\recipe_create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_create.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Recipe\\recipe_create.cshtml",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABUAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T12:35:59.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "website_userfaq.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_userfaq.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Website\\website_userfaq.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_userfaq.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Website\\website_userfaq.cshtml",
+              "ViewState": "AQIAACEAAADApjdnPB8dwC8AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T14:02:54.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "Icecream\\Controllers\\RecipeController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "Icecream\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAK8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T18:56:24.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "userrecipe_submit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Userrecipe\\userrecipe_submit.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Userrecipe\\userrecipe_submit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Userrecipe\\userrecipe_submit.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Userrecipe\\userrecipe_submit.cshtml",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACsAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:51:01.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "book_edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_edit.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Book\\book_edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_edit.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Book\\book_edit.cshtml",
+              "ViewState": "AQIAAA8AAADgFbIYEbovwBQAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:53:30.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240305141442_addedaddresscolumntoorderstable.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Data\\Migrations\\20240305141442_addedaddresscolumntoorderstable.cs",
+              "RelativeDocumentMoniker": "Icecream\\Data\\Migrations\\20240305141442_addedaddresscolumntoorderstable.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Data\\Migrations\\20240305141442_addedaddresscolumntoorderstable.cs",
+              "RelativeToolTip": "Icecream\\Data\\Migrations\\20240305141442_addedaddresscolumntoorderstable.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T14:14:42.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "website_orderform.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_orderform.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Website\\website_orderform.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_orderform.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Website\\website_orderform.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwDwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:50:22.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "website_feedback.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_feedback.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Website\\website_feedback.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_feedback.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Website\\website_feedback.cshtml",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAI0AAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:45:59.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "website_contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_contact.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Website\\website_contact.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Website\\website_contact.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Website\\website_contact.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:33:06.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WebsiteController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\WebsiteController.cs",
+              "RelativeDocumentMoniker": "Icecream\\Controllers\\WebsiteController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\WebsiteController.cs",
+              "RelativeToolTip": "Icecream\\Controllers\\WebsiteController.cs",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAANsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T13:07:03.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "faq_edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_edit.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\FAQ\\faq_edit.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_edit.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\FAQ\\faq_edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:06:19.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "faq_create.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_create.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\FAQ\\faq_create.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_create.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\FAQ\\faq_create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:06:29.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Icecream\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABYAAACxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:59:21.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Dashboard_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Shared\\Dashboard_Layout.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Shared\\Dashboard_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Shared\\Dashboard_Layout.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Shared\\Dashboard_Layout.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAFkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-05T13:28:58.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FAQController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\FAQController.cs",
+              "RelativeDocumentMoniker": "Icecream\\Controllers\\FAQController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Controllers\\FAQController.cs",
+              "RelativeToolTip": "Icecream\\Controllers\\FAQController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T12:49:02.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Userfaq.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Models\\Userfaq.cs",
+              "RelativeDocumentMoniker": "Icecream\\Models\\Userfaq.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Models\\Userfaq.cs",
+              "RelativeToolTip": "Icecream\\Models\\Userfaq.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T13:02:34.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "book_detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_detail.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Book\\book_detail.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Book\\book_detail.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Book\\book_detail.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:09:12.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "userrecipe_detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Userrecipe\\userrecipe_detail.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Userrecipe\\userrecipe_detail.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Userrecipe\\userrecipe_detail.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Userrecipe\\userrecipe_detail.cshtml",
+              "ViewState": "AQIAABQAAAAAhazcAscgwDkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:08:42.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "recipe_detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_detail.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\Recipe\\recipe_detail.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\Recipe\\recipe_detail.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\Recipe\\recipe_detail.cshtml",
+              "ViewState": "AQIAAAcAAAAAIgsJEPjzvyoAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:08:13.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "faq_details.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_details.cshtml",
+              "RelativeDocumentMoniker": "Icecream\\Views\\FAQ\\faq_details.cshtml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\Views\\FAQ\\faq_details.cshtml",
+              "RelativeToolTip": "Icecream\\Views\\FAQ\\faq_details.cshtml",
+              "ViewState": "AQIAAAwAAACA//+PWh0awCEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:06:38.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\appsettings.json",
+              "RelativeDocumentMoniker": "Icecream\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\appsettings.json",
+              "RelativeToolTip": "Icecream\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-04T16:29:51.513Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

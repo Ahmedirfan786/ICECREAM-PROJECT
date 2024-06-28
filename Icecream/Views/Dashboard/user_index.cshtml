@@ -1,0 +1,81 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Icecream.Data;
+@model IEnumerable<ApplicationUser>
+
+@{
+    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
+}
+@{
+    ViewData["Title"] = "Users";
+}
+
+
+
+<style>
+    table{
+        border:1px solid black:
+    }
+    table thead{
+        background-color:hotpink;
+        color:black;
+
+    }
+    table tbody{
+        background-color:white;
+        color:hotpink;
+    }
+</style>
+<h1>Users</h1>
+
+
+
+<table class="table table-bordered table-responsive">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+
+            <th>@Html.DisplayNameFor(model => model.Name)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.Subscription)</th>
+            <th>@Html.DisplayNameFor(model => model.Cardnumber)</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            @if (item.Subscription == "Yearly")
+            {
+
+                <tr style="background-color:#f7df5c;">
+                    <td>@Html.DisplayFor(modelitem => item.Id)</td>
+
+                    <td>@Html.DisplayFor(modelitem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelitem => item.Email)</td>
+                    <td style="background-color:gold;color:black;">@Html.DisplayFor(modelitem => item.Subscription)</td>
+
+                    <td>@Html.DisplayFor(modelitem => item.Cardnumber)</td>
+                
+                
+                
+                </tr>
+            }
+            else
+            {
+                <tr style="background-color:#dedede;">
+                    <td>@Html.DisplayFor(modelitem => item.Id)</td>
+
+                    <td>@Html.DisplayFor(modelitem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelitem => item.Email)</td>
+                    <td style="background-color:silver;color:black;">@Html.DisplayFor(modelitem => item.Subscription)</td>
+
+                    <td>@Html.DisplayFor(modelitem => item.Cardnumber)</td>
+
+
+
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>

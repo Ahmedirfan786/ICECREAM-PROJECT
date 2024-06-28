@@ -1,0 +1,82 @@
+﻿@{
+    Layout = "~/Views/Shared/Website_Layout.cshtml";
+}
+@model IEnumerable<Icecream.Models.Book>
+
+<partial name="Notifications" />
+
+<style>
+    <style >
+    .product-item:hover h5 a{
+        color: white;
+    }
+</style>
+</style>
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3 mt-lg-5">Books</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">Books</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Products Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="section-title position-relative text-center mb-5">Our Amazing Recipe Books</h1>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-3 col-md-3 col-sm-6 mb-4 pb-2">
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light">
+                            
+                            <div class="position-relative bg-primary mt-2 p-1" style="width: 210px; height: 250px;">
+                                <img class="w-100 h-100" src="~/Website/img/@Html.DisplayFor(modelItem => item.Path)" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-2"><a asp-controller ="Website" asp-action="website_bookdetail" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a></h5>
+                            
+                            <p>RS @Html.DisplayFor(modelItem => item.Price)</p>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <span>
+
+                                <a href="javascript:void(0)" class="btn btn-sm btn-secondary mb-2" disabled>Add to cart</a>
+
+                                </span>
+                                
+                            }
+                            else
+                            {
+                                <span>
+
+                            <a asp-controller="Website" asp-action="website_orderform" asp-route-id="@item.Id" class="btn btn-sm btn-secondary mb-2">Add to cart</a>
+                                </span>
+                            
+
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            else{
+            <p>No Books available.</p>
+            }
+
+
+            <div class="col-12 text-center">
+                <a href="" class="btn btn-primary py-3 px-5">Load More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->

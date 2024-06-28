@@ -1,0 +1,76 @@
+﻿@using Icecream.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+
+        <li class="nav-item d-inline-flex align-items-center">
+                <span>
+        @if (User.Identity.IsAuthenticated)
+        {
+            var userName = User.Identity.Name;
+            if (!string.IsNullOrEmpty(userName))
+            {
+                var user = await UserManager.FindByNameAsync(userName);
+                    <a class="nav-link text-white mr-3" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @(user.Name)!</a>
+            }
+        }
+                </span>
+            
+
+            @if (User.IsInRole("Admin"))
+            {
+                <form class="form-inline mr-3" asp-controller="Dashboard" asp-action="dashboard_index" asp-area="">
+
+                    <button type="submit" class="nav-link btn btn-warning btn-sm p-1 rounded-0 btn-link text-white">Dashboard</button>
+                </form>
+            }
+
+           @*  <span>
+                <!-- Display ID in a <p> element -->
+                <p>User ID: @UserManager.GetUserId(User)</p>
+                <!-- Display email in a <p> element -->
+                <p>User Email: @User.Identity?.Name</p>
+                <!-- Display card number in a <p> element -->
+                <!-- Display card number in a <p> element -->
+                <!-- Display card number in a <p> element -->
+                <!-- Display card number in a <p> element -->
+            <!-- Make sure to include the correct namespace for your ApplicationUser class -->
+                @{
+                    var user = await UserManager.FindByNameAsync(User.Identity.Name);
+                }
+
+                <!-- Display card number in a <p> element -->
+                <p>Card Number: @user?.Cardnumber</p>
+
+
+
+
+            </span>
+ *@
+           
+            
+
+            <span>
+                <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("website_index", "Website", new { area = "" })">
+                    <button type="submit" class="nav-link btn btn-danger btn-sm p-1 rounded-0 btn-link text-white">Logout</button>
+                </form>
+            </span>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item d-inline-flex align-items-center">
+            <span>
+                <a class="nav-link text-white mr-3" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </span>
+
+            <span>
+                <a class="nav-link text-white" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </span>
+        </li>
+    }
+</ul>

@@ -1,0 +1,171 @@
+﻿@using Icecream.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+@model Icecream.Models.Feedback
+
+    
+<partial name="Notifications" />
+
+    <style>
+        
+
+        .untree_co-section {
+            background-color: #ffffff;
+            padding: 80px 0;
+        }
+
+        .containerfback {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .block {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        .rating {
+            margin-top: 15px;
+            font-size: 24px;
+        }
+
+        .star {
+            display: inline-block;
+            cursor: pointer;
+            color: #343a40;
+        }
+
+            .star.active {
+                color: #ffc107;
+            }
+
+        #rating-value {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+      #Feedbackbtn{
+        border-radius: 5px;
+        border: none;
+        background: linear-gradient(34deg, rgba(54,203,255,1) 14%, rgba(255,0,168,1) 98%);
+        color:white;
+        padding:10px;
+      }
+    </style>
+
+
+    <!-- Start Contact Form -->
+    <div class="untree_co-section">
+        <div class="containerfback">
+
+            <div class="block">
+                <div class="row justify-content-center">
+
+                    <div class="col-md-12 col-lg-12 pb-4">
+
+                        <h1>Feedback Form</h1>
+                        <form asp-action="Feedback" method="post">
+
+                            <div class="form-group">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                var userName = User.Identity.Name;
+                                if (!string.IsNullOrEmpty(userName))
+                                {
+                                    var user = await UserManager.FindByNameAsync(userName);
+                                    if (user != null)
+                                    {
+                                        <label asp-for="Name" class="text-black" for="fname">Name</label>
+                                        <input asp-for="Name" type="text" class="form-control" id="fname" value="@user.Name" readonly>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                <label asp-for="Name" class="text-black" for="fname">Name</label>
+                                <input asp-for="Name" type="text" class="form-control" id="fname" required pattern="[A-Za-z]+" title="Only characters are allowed">
+                            }
+                                
+                                @* <label asp-for="Name" class="text-black" for="fname">Name</label>
+                                <input asp-for="Name" type="text" class="form-control" id="fname" required> *@
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="feedback" class="text-black" for="message">Feedback</label>
+                                <textarea asp-for="feedback" class="form-control" id="message" cols="30" rows="5" name="feedback" required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="rating">
+                                    <span class="star" data-rating="1"><i class="fas fa-star"></i></span>
+                                    <span class="star" data-rating="2"><i class="fas fa-star"></i></span>
+                                    <span class="star" data-rating="3"><i class="fas fa-star"></i></span>
+                                    <span class="star" data-rating="4"><i class="fas fa-star"></i></span>
+                                    <span class="star" data-rating="5"><i class="fas fa-star"></i></span>
+                                </div>
+                                <p id="rating-value">Rating: 0</p>
+                                <input type="hidden" id="hidden-rating" name="Rating" asp-for="Rating" value="0" required>
+                                <span asp-validation-for="Rating" class="text-danger"></span>
+                            </div>
+
+                            <button type="submit" id="Feedbackbtn">Send Feedback</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- End Contact Form -->
+<!-- Include jQuery library -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".star").on("click", function () {
+            var rating = $(this).data("rating");
+            $("#rating-value").text("Rating: " + rating);
+            $("#hidden-rating").val(rating);
+            $(".star").removeClass("active");
+            $(this).prevAll().addBack().addClass("active");
+        });
+    });
+</script>

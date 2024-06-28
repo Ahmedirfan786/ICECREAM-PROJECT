@@ -1,0 +1,80 @@
+﻿@{
+    Layout = "/Views/Shared/Dashboard_Layout.cshtml";
+}
+@model IEnumerable<Icecream.Models.Order>
+
+@{
+    ViewData["Title"] = "PendingOrders";
+}
+
+<partial name="Notifications" />
+
+<h1>PendingOrders</h1>
+
+
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserPhone)
+            </th>
+            
+            <th>
+                @Html.DisplayNameFor(model => model.BookName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BookPrice)
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+           
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserPhone)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.BookName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookPrice)
+            </td>
+            <td>
+                    <img src="~/Website/img/@Html.DisplayFor(modelItem => item.BookingPath)" alt="Book image" width="50px" height="50px" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+                <td>
+                    @if (item.Status == "Pending")
+                    {
+                        <form asp-action="MarkAsComplete" asp-route-id="@item.Id" method="post">
+                            <button type="submit" class="btn btn-success btn-sm">Mark as Complete</button>
+                        </form>
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

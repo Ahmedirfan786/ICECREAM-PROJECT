@@ -1,0 +1,119 @@
+﻿@using Icecream.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model Icecream.Models.Book
+
+<style>
+    label {
+        color: deeppink;
+    }
+
+    input {
+        border: 1px solid pink;
+        outline: 1px solid deeppink;
+        color: deepskyblue;
+    }
+</style>
+
+<div class="container m-5 p-5 bg-white">
+    <div class="row">
+        <div class="col-md-8">
+            <form asp-action="Placeorder" method="post">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    var userName = User.Identity.Name;
+                    if (!string.IsNullOrEmpty(userName))
+                    {
+                        var user = await UserManager.FindByNameAsync(userName);
+
+                        <div class="form-group">
+                            <label for="UserName">User Name</label>
+                            <input type="text" class="form-control" id="UserName" name="UserName" value="@user.Name" readonly />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="UserEmail">User Email</label>
+                            <input type="text" class="form-control" id="UserEmail" name="UserEmail" value="@user.Email" readonly />
+                        </div>
+
+                        
+
+                        @if (!string.IsNullOrEmpty(user.PhoneNumber))
+                        {
+                            <div class="form-group">
+                                <label for="UserPhone">User Phone</label>
+                                <input type="number" class="form-control" id="UserPhone" name="UserPhone" value="@user.PhoneNumber" readonly />
+                            </div>
+                            
+                        }
+                        else
+                        {
+                            <div class="form-group">
+                                <label for="UserPhone">Phone Number</label>
+                                <input type="number" class="form-control" id="UserPhone" name="UserPhone" placeholder="Enter Phone number">
+                            </div>
+                        }
+
+                        <div class="form-group">
+                            <label for="UserAdress">Adress</label>
+                            <input type="text" class="form-control" id="UserAdress" name="UserAdress" aria-describedby="emailHelp" placeholder="Enter Your Address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="UserCreditDebit">User Credit/Debit</label>
+                            <input type="number" class="form-control" id="UserCreditDebit" name="UserCreditDebit" value="@user.Cardnumber" readonly />
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="form-group">
+                        <label for="UserName">Name</label>
+                        <input type="text" class="form-control" id="UserName" name="UserName" placeholder="Username" required pattern="[A-Za-z]+" title="Only characters are allowed">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UserEmail">Email address</label>
+                        <input type="email" class="form-control" id="UserEmail" name="UserEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UserPhone">Phone Number</label>
+                        <input type="number" class="form-control" id="UserPhone" name="UserPhone" aria-describedby="emailHelp" placeholder="Enter Phone number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UserAdress">Adress</label>
+                        <input type="text" class="form-control" id="UserAdress" name="UserAdress" aria-describedby="emailHelp" placeholder="Enter Your Address">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="UserCreditDebit">Credit/Debit Card</label>
+                        <input type="number" class="form-control" id="UserCreditDebit" name="UserCreditDebit" aria-describedby="emailHelp" placeholder="Enter credit/debit card number">
+                    </div>
+                }
+
+                <div class="form-group">
+                    <label for="BookName">Book Name</label>
+                    <input type="text" class="form-control" id="BookName" name="BookName" value="@Html.DisplayFor(model => model.Name)" readonly />
+                </div>
+                <div class="form-group">
+                    <label for="BookPrice">Book Price</label>
+                    <input type="text" class="form-control" id="BookPrice" name="BookPrice" value="@Html.DisplayFor(model => model.Price)" readonly />
+                </div>
+
+                
+                <input type="hidden" name="BookingPath" value="@Html.DisplayFor(model => model.Path)" />
+                <input type="hidden" value="Pending"/>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <div class="col-md-4">
+            <img src="~/Website/img/@Html.DisplayFor(model => model.Path)" width="inherit" height="400px" alt="Book Image">
+        </div>
+    </div>
+</div>

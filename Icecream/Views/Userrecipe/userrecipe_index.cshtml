@@ -1,0 +1,72 @@
+﻿@{
+    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
+}
+
+@model IEnumerable<Icecream.Models.Userrecipe>
+
+@{
+    ViewData["Title"] = "User_Recipes";
+}
+
+<partial name="Notifications" />
+
+<h1>User Recipes</h1>
+
+
+<!-- Add TempData messages display -->
+<div class="text-success">@TempData["success"]</div>
+<div class="text-danger">@TempData["error"]</div>
+
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.user_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.user_email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.recipe_name)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.points)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.user_email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.recipe_name)
+            </td>
+          
+            <td>
+                @Html.DisplayFor(modelItem => item.points)
+            </td>
+            <td>
+                    @if (item.points < 1)
+                    {
+
+                        <a class="btn btn-info btn-sm" asp-action="userrecipe_givepoints" asp-route-id="@item.Id">Give Points</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-secondary btn-sm" asp-action="userrecipe_givepoints" asp-route-id="@item.Id">Edit Points</a>
+
+                    }
+                    | <a class="btn btn-warning btn-sm" asp-action="userrecipe_detail" asp-route-id="@item.Id">Details</a> |
+                    <a class="btn btn-danger btn-sm" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

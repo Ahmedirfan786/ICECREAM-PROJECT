@@ -1,0 +1,146 @@
+﻿@using Icecream.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model Icecream.Models.Contact
+
+@{
+    Layout = "~/Views/Shared/Website_Layout.cshtml";
+}
+
+<style>
+    .contactcard {
+        border: 1px solid #F195B2;
+        box-shadow: 0px 0px 3px #F195B2;
+        cursor: pointer;
+    }
+
+        .contactcard:hover {
+            box-shadow: 0px 0px 15px #F195B2;
+        }
+</style>
+
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3 mt-lg-5">Contact</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">Contact</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Contact Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="section-title position-relative text-center mb-5">Contact Us For Any Query</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
+                <div class="contact-form bg-light rounded p-5">
+                    <form asp-action="Contact" method="post">
+                        
+
+                        <div class="form-row">
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                var userName = User.Identity.Name;
+                                if (!string.IsNullOrEmpty(userName))
+                                {
+                                    var user = await UserManager.FindByNameAsync(userName);
+                                    if (user != null)
+                                    {
+                                        <div class="col-sm-6 control-group">
+                                            <input asp-for="Name" type="text" class="form-control p-4" id="name" value="@user.Name" required="required" data-validation-required-message="Please enter your name" readonly/>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="col-sm-6 control-group">
+                                            <input asp-for="Email" type="email" class="form-control p-4" id="email" value="@user.Email" required="required" data-validation-required-message="Please enter your email" readonly/>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    }
+                                }
+                            }
+                            else
+                            {
+                                <div class="col-sm-6 control-group">
+                                    <input asp-for="Name" type="text" class="form-control p-4" id="name" placeholder="Enter your name" required="required" pattern="[A-Za-z]+" title="Only characters are allowed" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input asp-for="Email" type="email" class="form-control p-4" id="email" placeholder="Enter your email" required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            }
+                        </div>
+                        <div class="control-group">
+                            <input asp-for="Subject" type="text" class="form-control p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea asp-for="Message" class="form-control p-4" rows="6" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Contact Address Starts -->
+        <div class="row justify-content-center mt-5 p-5">
+
+            <!-- Contact Address -->
+            <div class="col-lg-12">
+                <div class="row bg-light rounded p-2 mb-4 contactcard">
+                    <div class="col-lg-12">
+                        <h3>Address</h3>
+                        <p style="font-size:12px">
+                            Sweet Scoops Ice Cream<br>
+                            123 Main Street<br>
+                            Cherryville, CA 98765<br>
+                            USA
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Phone -->
+            <div class="col-lg-12">
+                <div class="row bg-light rounded p-2 mb-4 contactcard">
+                    <div class="col-lg-12">
+                        <h3>Phone</h3>
+                        <p style="font-size:12px">
+                            Email: scoopsicecream@gmail.com<br>
+                            Phone: (555) 123-4567
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Social -->
+            <div class="col-lg-12">
+                <div class="row bg-light rounded p-2 contactcard">
+                    <div class="col-lg-12">
+                        <h3>Social</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59284448.78677033!2d-6.866254900000008!3d24.91722659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb3152ff5cb8d47%3A0xb7ffe1bd1d0d9576!2sbmw%20ice%20Cream!5e0!3m2!1sen!2sid!4v1707806375321!5m2!1sen!2sid" style="border:0;width:100%;height:200px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Contact Address Ends -->
+
+
+
+
+    </div>
+</div>
+<!-- Contact End -->

@@ -1,0 +1,64 @@
+﻿@{
+    Layout = "~/Views/Shared/Dashboard_Layout.cshtml";
+}
+
+@model IEnumerable<Icecream.Models.Feedback>
+
+@{
+    ViewData["Title"] = "feedback_index";
+}
+
+<h1>feedback_index</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.feedback)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rating) /5
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.feedback)
+            </td>
+            <td>
+                    @if (item.Rating == 1)
+                    {
+                        <p>⭐</p>
+                    }
+                    @if (item.Rating == 2)
+                    {
+                        <p>⭐⭐</p>
+                    }
+                    @if (item.Rating == 3)
+                    {
+                        <p>⭐⭐⭐</p>
+                    }
+                    @if (item.Rating == 4)
+                    {
+                        <p>⭐⭐⭐⭐</p>
+                    }
+                    @if (item.Rating == 5)
+                    {
+                        <p>⭐⭐⭐⭐⭐</p>
+                    }
+                @* @Html.DisplayFor(modelItem => item.Rating) *@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,66 @@
+﻿@model Icecream.Models.Userrecipe
+
+@{
+    Layout = "/Views/Shared/Dashboard_Layout.cshtml";
+}
+
+@if (Model.points < 1)
+{
+    <h1>Give User Recipe Points</h1>
+    <h4 class="mb-4">Provide points for the recipe</h4>
+}
+else
+{
+    <h1>Edit User Recipe Points</h1>
+    <h4 class="mb-4">Modify points for the recipe</h4>
+}
+
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Ed" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="Id" />
+
+            <p class="text-danger">Admins should not give/edit points in decimal numbers.</p>
+
+            <div class="form-group">
+                <label asp-for="points" class="control-label">Points</label>
+                <input asp-for="points" min="0" max="100" class="form-control" />
+                <span asp-validation-for="points" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                @if (Model.points < 1)
+                {
+                    <input type="submit" value="Give Points" class="btn btn-primary" />
+                }
+                else
+                {
+                    <input type="submit" value="Edit Points" class="btn btn-primary" />
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a asp-action="userrecipe_index" class="btn btn-secondary">Back to List</a>
+</div>
+
+<div class="mt-4">
+    <div class="d-flex">
+        <p class="text-danger"><b>Username:</b> @(Model.user_name)</p>
+        <p class="mx-2">|</p>
+        <p class="text-warning"><b>Useremail:</b> @(Model.user_email)</p>
+        <p class="mx-2">|</p>
+        <p class="text-info"><b>Recipename:</b> @(Model.recipe_name)</p>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

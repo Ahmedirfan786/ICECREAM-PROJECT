@@ -1,0 +1,188 @@
+﻿using System;
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
+using Icecream.Data;
+using Icecream.Models;
+using Icecream.Data;
+using Microsoft.AspNetCore.Authorization;
+
+namespace Icecream.Controllers
+{
+    [Authorize(Roles = "Admin")]
+    public class RecipeController : Controller
+    {
+        private readonly ApplicationDbContext context;
+        private readonly IWebHostEnvironment enviroment;
+
+        public RecipeController(ApplicationDbContext context, IWebHostEnvironment enviroment)
+
+        {
+
+            this.context = context;
+            this.enviroment = enviroment;
+        }
+        public IActionResult recipe_index()
+        {
+            var data = context.Recipes.ToList();
+            return View(data);
+        }
+        public IActionResult recipe_create()
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create(Recipe model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    string uniquefilename = UploadImage(model);
+                    var data = new Recipe()
+                    {
+                        Name = model.Name,
+                        Description = model.Description,
+                        Status=model.Status,
+                        Path = uniquefilename
+                    };
+                    TempData["success"] = "Recipe added successfully!";
+                    context.Recipes.Add(data);
+                    context.SaveChanges();
+                    TempData["success"] = "The Recipe is added successfully!!!";
+                    return RedirectToAction("recipe_index");
+                }
+                else
+                {
+                    TempData["error"] = "The Recipe is not created!";
+                    return RedirectToAction("recipe_index");
+                }
+                ModelState.AddModelError("", "Model property is not valid please check");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(String.Empty, ex.Message);
+            }
+            return View(model);
+        }
+
+        private string UploadImage(Recipe model)
+        {
+            string uniquefilename = "";
+            if (model.Image != null)
+            {
+                string UploadFolder = Path.Combine(enviroment.WebRootPath, "Website/img");
+                uniquefilename = Guid.NewGuid().ToString() + "_" + model.Image.FileName;
+                string FilePath = Path.Combine(UploadFolder, uniquefilename);
+                using (var fileStream = new FileStream(FilePath, FileMode.Create))
+                {
+                    model.Image.CopyTo(fileStream);
+                }
+            }
+            return uniquefilename;
+        }
+        public IActionResult recipe_delete(int id)
+        {
+            if (id == 0)
+            {
+                return NotFound();
+            }
+            else
+            {
+                var data = context.Recipes.Where(e => e.Id == id).SingleOrDefault();
+                if (data != null)
+                {
+                    string deleteFromFolder = Path.Combine(enviroment.WebRootPath, "Website/img");
+                    string currentImage = Path.Combine(Directory.GetCurrentDirectory(), deleteFromFolder, data.Path);
+                    if (currentImage != null)
+                    {
+                        if (System.IO.File.Exists(currentImage))
+                        {
+                            System.IO.File.Delete(currentImage);
+                        }
+                    }
+                    TempData["error"] = "The Recipe is deleted successfully!";
+                    context.Recipes.Remove(data);
+                    context.SaveChanges();
+                    //TempData["Success"] = "Record Deleted!";
+                }
+            }
+            return RedirectToAction("recipe_index");
+        }
+        public IActionResult recipe_detail(int id)
+        {
+            if (id == 0)
+            {
+                return NotFound();
+            }
+            var data = context.Recipes.Where(e => e.Id == id).SingleOrDefault();
+            return View(data);
+
+        }
+        public IActionResult recipe_edit(int id)
+        {
+            var data = context.Recipes.Where(e => e.Id == id).SingleOrDefault();
+            if (data != null)
+            {
+                return View(data);
+            }
+            else
+            {
+                return RedirectToAction("recipe_index");
+            }
+        }
+        [HttpPost]
+        public IActionResult Edit(Recipe model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    var data = context.Recipes.Where(e => e.Id == model.Id).SingleOrDefault();
+                    string uniqueFileName = string.Empty;
+
+                    if (model.Image != null)
+                    {
+                        if (data.Path != null)
+                        {
+                            string filepath = Path.Combine(enviroment.WebRootPath, "/Website/img", data.Path);
+                            if (System.IO.File.Exists(filepath))
+                            {
+                                System.IO.File.Delete(filepath);
+                            }
+                        }
+                        uniqueFileName = UploadImage(model);
+                    }
+
+                    data.Name = model.Name;
+                    data.Description = model.Description;
+                    data.Status = model.Status;
+
+                    if (model.Image != null)
+                    {
+                        data.Path = uniqueFileName;
+                    }
+
+                    TempData["warning"] = "The Recipe is updated successfully!";
+                    context.Recipes.Update(data);
+                    context.SaveChanges();
+                }
+                else
+                {
+                    TempData["error"] = "The Recipe is not updated!";
+                  
+                    return RedirectToAction("recipe_index");
+                }
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, ex.Message);
+            }
+
+            return RedirectToAction("recipe_index");
+        }
+
+    }
+}

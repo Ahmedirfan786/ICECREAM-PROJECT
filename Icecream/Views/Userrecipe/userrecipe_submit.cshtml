@@ -1,0 +1,135 @@
+﻿@using Icecream.Data
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@model Icecream.Models.Userrecipe
+
+@{
+    ViewData["Title"] = "Submit Recipe";
+}
+
+<partial name="Notifications" />
+
+<style>
+    
+
+    .submitrecipecont {
+        background-color: white; 
+        border-radius: 10px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        padding: 20px;
+        margin-top: 50px; 
+    }
+
+    
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        margin-bottom: 10px; 
+    }
+</style>
+
+<div class="container submitrecipecont mt-5">
+    <h1 class="text-center">Submit Recipe</h1>
+    <h5 class="text-success text-center">Submit your recipe and get awesome winning prizes!</h5>
+    <hr />
+
+    <div class="row justify-content-center">
+        <div class="col-md-9">
+            <form asp-action="userrecipe_submit" method="post" enctype="multipart/form-data">
+    
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                 var userName = User.Identity.Name;
+                 if (!string.IsNullOrEmpty(userName))
+                 {
+                    var user = await UserManager.FindByNameAsync(userName);
+                    if (user != null)
+                    {
+                            <div class="form-group">
+                                <label asp-for="user_name" class="control-label">Your Name:</label>
+                                <input asp-for="user_name" value="@user.Name" class="form-control" readonly/>
+                                <span asp-validation-for="user_name" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label asp-for="user_email" class="control-label">Your Email:</label>
+                                <input asp-for="user_email" value="@user.Email" class="form-control" readonly/>
+                                <span asp-validation-for="user_email" class="text-danger"></span>
+                            </div>
+                        }
+                 }
+            }
+
+              
+
+                
+                else
+                {
+                    <div class="form-group">
+                        <label asp-for="user_name" class="control-label">Your Name:</label>
+                        <input asp-for="user_name" placeholder="enter name" class="form-control"  pattern="[A-Za-z]+" title="Only characters are allowed" />
+                        <span asp-validation-for="user_name" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="user_email" class="control-label">Your Email:</label>
+                        <input asp-for="user_email" placeholder="enter email" class="form-control" />
+                        <span asp-validation-for="user_email" class="text-danger"></span>
+                    </div>
+                }
+                <div class="form-group">
+                    <label asp-for="recipe_name" class="control-label">Recipe Name:</label>
+                    <input asp-for="recipe_name" placeholder="enter recipe name" class="form-control" pattern="[A-Za-z]+" title="Only characters are allowed" />
+                    <span asp-validation-for="recipe_name" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="recipe_description" class="control-label">Recipe Description:</label>
+                    <textarea asp-for="recipe_description" placeholder="enter recipe description" class="form-control" rows="5"></textarea>
+                    <span asp-validation-for="recipe_description" class="text-danger"></span>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-8">
+                        <label asp-for="Image">Recipe Image:</label>
+                        <input type="file" asp-for="Image" class="form-control" id="ChooseImg" />
+                    </div>
+                    <div class="col-4">
+                        <img src="https://placehold.jp/150*150.png" style="height:200px;width:200px;border:1px solid black;border-radius:10px;padding:10px" alt="photo" id="PrevImg" />
+                    </div>
+                </div>
+
+                <div class="form-group mt-4">
+                    <input type="submit" value="Submit Recipe" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#ChooseImg').change(function (e) {
+                var url = $('#ChooseImg').val();
+                var ext = url.substring(url.lastIndexOf('.') + 1).toLowerCase();
+                if (ChooseImg.files && ChooseImg.files[0] && (ext == "gif" || ext == "jpg" || ext == "jfif" || ext == "png" || ext == "bmp")) {
+                    var reader = new FileReader();
+                    reader.onload = function () {
+                        var output = document.getElementById('PrevImg');
+                        output.src = reader.result;
+                    }
+                    reader.readAsDataURL(e.target.files[0]);
+                }
+            });
+        });
+    </script>
+}

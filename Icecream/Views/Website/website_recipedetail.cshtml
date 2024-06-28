@@ -1,0 +1,40 @@
+﻿@model Icecream.Models.Recipe
+
+@{
+    Layout = "~/Views/Shared/Website_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "Recipe Details";
+}
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-body">
+            @if (Model.Status == "Pro")
+            {
+                <h1 class="card-title text-center">@Html.DisplayFor(model => model.Name) 👑</h1>
+            }
+            else
+            {
+
+                <h1 class="card-title text-center">@Html.DisplayFor(model => model.Name) 💎</h1>
+            }
+            <hr />
+            <div class="row">
+                <div class="col-md-9">
+                    <dl class="row">
+                        <dt class="col-sm-4">Description:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+                        <dt class="col-sm-4">Status:</dt>
+                        <dd class="col-sm-8">@Html.DisplayFor(model => model.Status)</dd>
+                    </dl>
+                   
+                </div>
+                <div class="col-md-3 text-center">
+                    <img src="~/Website/img/@Html.DisplayFor(model => model.Path)" class="img-fluid rounded" alt="Recipe Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

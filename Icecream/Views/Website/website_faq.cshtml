@@ -1,0 +1,86 @@
+﻿@model IEnumerable<Icecream.Models.FAQ>
+
+@{
+    Layout = "~/Views/Shared/Website_Layout.cshtml";
+}
+
+<partial name="Notifications"/>
+
+<style>
+    .card .card-header {
+        background: rgb(241, 149, 199);
+        background: linear-gradient(225deg, rgba(241, 149, 199, 1) 35%, rgba(249, 74, 189, 1) 100%);
+    }
+
+    .card h5 .btn {
+        color: white;
+    }
+
+    .card .card-body {
+        color: hotpink;
+    }
+</style>
+
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3 mt-lg-5">FAQ</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">Faqs</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Faq Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <h1 class="section-title position-relative text-center mb-5">Most Asked FAQ's</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <a asp-controller="Website" asp-action="website_userfaq"  class="btn btn-outline-primary">
+                    Submit Your FAQ
+                </a>
+            </div>
+            <div class="col-md-12">
+                <div class="accordion" id="faqAccordion">
+
+
+                    @{
+                        int count = 1; 
+                    }
+
+                    @foreach (var item in Model)
+                    {
+                        <!-- FAQ Item -->
+                        <div class="card">
+                            <div class="card-header" id="heading@(count)">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse@(count)" aria-expanded="true" aria-controls="collapse@(count)">
+                                        Q@(count): @Html.DisplayFor(modelItem => item.Question)
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapse@(count)" class="collapse" aria-labelledby="heading@(count)" data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    A: @Html.DisplayFor(modelItem => item.Answer)
+                                </div>
+                            </div>
+                        </div>
+
+                        count++; // Increment the count variable
+                    }
+
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Faq End -->

@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "/Views/Shared/Dashboard_Layout.cshtml";
+}
+@model IEnumerable<Icecream.Models.Book>
+
+@{
+    ViewData["Title"] = "book_index";
+}
+
+<partial name="Notifications" />
+
+<h1>book_index</h1>
+
+<p>
+    <button class="btn btn-danger">
+    <a asp-controller="Book" asp-action="book_create" class="text-white">Create New</a>
+    </button>
+</p>
+<table class="table table-responsive">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            @* <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Path)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            @* <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td> *@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+           
+            <td>
+                    <img src="~/Website/img/@Html.DisplayFor(modelItem => item.Path)" width="80px" height="50px"></img>
+            </td>
+            <td>
+                    <a class="btn btn-info btn-sm" asp-controller="Book" asp-action="book_edit" asp-route-id="@item.Id">Edit</a> |
+                    <a class="btn btn-warning btn-sm" asp-controller="Book" asp-action="book_detail" asp-route-id="@item.Id">Details</a> |
+                    <a class="btn btn-success btn-sm" asp-controller="Book" asp-action="book_delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

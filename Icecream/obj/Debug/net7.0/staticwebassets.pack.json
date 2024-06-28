@@ -1,0 +1,1689 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Icecream.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Icecream.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\Color.txt",
+      "PackagePath": "staticwebassets\\Dashboard\\Color.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Dashboard\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\Dashboard\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\bootstrap-admin-template-free.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\bootstrap-admin-template-free.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\css\\style.css",
+      "PackagePath": "staticwebassets\\Dashboard\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\Dashboard\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\js\\main.js",
+      "PackagePath": "staticwebassets\\Dashboard\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\chart\\chart.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\chart\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\css\\tempusdominus-bootstrap-4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\moment-timezone.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\moment-timezone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\moment.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\tempusdominus\\js\\tempusdominus-bootstrap-4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Dashboard\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Dashboard\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Dashboard\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\Website\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\Website\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\css\\style.css",
+      "PackagePath": "staticwebassets\\Website\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\Website\\css\\style.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\ice-cream-shop-website-template.jpg",
+      "PackagePath": "staticwebassets\\Website\\ice-cream-shop-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\04a40721-ed32-4eae-ba50-88395f2af6ac_download-removebg-preview (24).png",
+      "PackagePath": "staticwebassets\\Website\\img\\04a40721-ed32-4eae-ba50-88395f2af6ac_download-removebg-preview (24).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\058a50f9-fb54-4e3a-bc03-0e0293b056f3_chocolatealmondicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\058a50f9-fb54-4e3a-bc03-0e0293b056f3_chocolatealmondicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\06cb7d4f-328f-4c2b-b8af-a94e65d35ddf_3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\06cb7d4f-328f-4c2b-b8af-a94e65d35ddf_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\134510bd-a38b-4c77-9a36-9946b4b5a1a7_chocoice.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\134510bd-a38b-4c77-9a36-9946b4b5a1a7_chocoice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\15096f4e-f645-4efc-a7e1-370f9c3097f7_download-removebg-preview (23).png",
+      "PackagePath": "staticwebassets\\Website\\img\\15096f4e-f645-4efc-a7e1-370f9c3097f7_download-removebg-preview (23).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\153bab82-785f-473b-8fd8-0d711098d253_chocolatetruffles.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\153bab82-785f-473b-8fd8-0d711098d253_chocolatetruffles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\154ce394-1fb3-4eb0-8392-867f059cbf10_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\154ce394-1fb3-4eb0-8392-867f059cbf10_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\1eb73839-1804-4322-8849-d33e9935f55d_lemonicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\1eb73839-1804-4322-8849-d33e9935f55d_lemonicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\21acb6ac-3adb-4535-ad40-1716a3834c19_carousal1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\21acb6ac-3adb-4535-ad40-1716a3834c19_carousal1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\22d6db7f-d376-4112-a5ee-4d0857f0f4a7_chocolatealmondicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\22d6db7f-d376-4112-a5ee-4d0857f0f4a7_chocolatealmondicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2968d346-1869-4767-970c-591ef55d82a9_blackcurranticecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2968d346-1869-4767-970c-591ef55d82a9_blackcurranticecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2a714a2c-647a-4e3c-8b15-8443c6e0f063_Blueberry-Ice-cream-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2a714a2c-647a-4e3c-8b15-8443c6e0f063_Blueberry-Ice-cream-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2a7488e4-8f8e-4c31-ba27-6b6b51342f05_honeycaramelicecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\2a7488e4-8f8e-4c31-ba27-6b6b51342f05_honeycaramelicecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2b7576f5-77c3-4773-b062-5b4acf1513ce_purpleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2b7576f5-77c3-4773-b062-5b4acf1513ce_purpleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2b862161-cfdd-490f-8833-38c0988d19f2_21.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2b862161-cfdd-490f-8833-38c0988d19f2_21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2c8f07c1-0682-435a-aea1-9e6011d78522_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2c8f07c1-0682-435a-aea1-9e6011d78522_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2d48f691-a2b3-4165-82a3-a6abf25ae596_download-removebg-preview (24).png",
+      "PackagePath": "staticwebassets\\Website\\img\\2d48f691-a2b3-4165-82a3-a6abf25ae596_download-removebg-preview (24).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\2d98c8b6-48ae-4c11-aafc-5ab7db3eba92_datesicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\2d98c8b6-48ae-4c11-aafc-5ab7db3eba92_datesicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\341d28a0-0e82-4ff5-8bf0-db172920043e_bananaicecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\341d28a0-0e82-4ff5-8bf0-db172920043e_bananaicecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\345f7a79-adf0-4410-9033-8a80736682df_Roseicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\345f7a79-adf0-4410-9033-8a80736682df_Roseicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\34d4d7a1-fd48-40fe-8bd3-d0c98b3d31a6_140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\34d4d7a1-fd48-40fe-8bd3-d0c98b3d31a6_140877-easy-eggless-strawberry-ice-cream-ddmfs-3x4-1-092e4d11b59049c8b3843014ea3c57f2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\35a74eec-46d5-42bd-a529-0f4a786638fa_kiwiicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\35a74eec-46d5-42bd-a529-0f4a786638fa_kiwiicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\36424824-db92-4023-9da5-df8873f66e1b_coconuticecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\36424824-db92-4023-9da5-df8873f66e1b_coconuticecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\380aa81b-30cf-4776-a100-c45c1f9b7934_mangoicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\380aa81b-30cf-4776-a100-c45c1f9b7934_mangoicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\3d557323-81ac-4935-b080-944abba26614_63971154.webp",
+      "PackagePath": "staticwebassets\\Website\\img\\3d557323-81ac-4935-b080-944abba26614_63971154.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\40951329-8723-4e23-8096-4470e4f34cde_wallpapersden.com_pubg-gaming-2022-hd_1920x1080.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\40951329-8723-4e23-8096-4470e4f34cde_wallpapersden.com_pubg-gaming-2022-hd_1920x1080.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\471bda98-3271-4f6a-94d7-4fe775e49280_Raspberryicecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\471bda98-3271-4f6a-94d7-4fe775e49280_Raspberryicecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\4b2437c9-705c-4067-bfad-7894ebc600b5_12304317_1089268307758744_6923536608730766471_o.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\4b2437c9-705c-4067-bfad-7894ebc600b5_12304317_1089268307758744_6923536608730766471_o.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\4b6fe725-8545-4a12-b134-fc2bf52565d2_3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\4b6fe725-8545-4a12-b134-fc2bf52565d2_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\4c9da0a2-efcf-4820-8648-8625df8d2f59_Peachicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\4c9da0a2-efcf-4820-8648-8625df8d2f59_Peachicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\50775ef4-ac58-4c37-9d1a-0358489909a9_1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\50775ef4-ac58-4c37-9d1a-0358489909a9_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\5190422b-8ee7-41d5-92fd-d822df6459d5_carousal1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\5190422b-8ee7-41d5-92fd-d822df6459d5_carousal1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\52be10ee-7ef6-4baf-8edb-1e28f052fa90_4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\52be10ee-7ef6-4baf-8edb-1e28f052fa90_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\539fa7fc-b3d1-4ad4-a1ca-b206c98c6eea_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\539fa7fc-b3d1-4ad4-a1ca-b206c98c6eea_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\5909f096-7462-4bf0-80a3-236e1565874d_coffeeicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\5909f096-7462-4bf0-80a3-236e1565874d_coffeeicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\5b28f3b7-d5c6-4573-a980-f5e5484270aa_2.png",
+      "PackagePath": "staticwebassets\\Website\\img\\5b28f3b7-d5c6-4573-a980-f5e5484270aa_2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\5b672d65-9711-49d3-a466-e7f1767ce2db_purpleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\5b672d65-9711-49d3-a466-e7f1767ce2db_purpleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\601d4f81-227e-473e-8ad2-2503742fac64_Raspberryicecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\601d4f81-227e-473e-8ad2-2503742fac64_Raspberryicecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\61faeb1d-14b6-49bb-8e11-0873a69642f8_download.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\61faeb1d-14b6-49bb-8e11-0873a69642f8_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\622ba5da-0c78-453e-a42d-bfcec5bb2e97_walnuticrecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\622ba5da-0c78-453e-a42d-bfcec5bb2e97_walnuticrecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\6451db98-924e-4b79-a564-d1ac9f8eec4e_chocolatetruffles.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\6451db98-924e-4b79-a564-d1ac9f8eec4e_chocolatetruffles.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\6614e0f7-0713-4674-8bb3-f06d60da1ac8_Blueberry-Ice-cream-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\6614e0f7-0713-4674-8bb3-f06d60da1ac8_Blueberry-Ice-cream-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\6911589c-2caa-454c-846b-afb28f564af1_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\6911589c-2caa-454c-846b-afb28f564af1_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\6f8c1830-0cfb-448c-a67e-4fba1a773a36_download-removebg-preview (24).png",
+      "PackagePath": "staticwebassets\\Website\\img\\6f8c1830-0cfb-448c-a67e-4fba1a773a36_download-removebg-preview (24).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\75fad86d-d13b-4844-8144-21caac658784_download.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\75fad86d-d13b-4844-8144-21caac658784_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\7a9577a3-1768-40de-bbcc-25f0c47f8732_2.png",
+      "PackagePath": "staticwebassets\\Website\\img\\7a9577a3-1768-40de-bbcc-25f0c47f8732_2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\7c060e1d-3b2c-41f4-a722-6eaaa54837c5_purpleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\7c060e1d-3b2c-41f4-a722-6eaaa54837c5_purpleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\7e1d5e55-9cbf-4eec-b106-7b246034bdeb_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\7e1d5e55-9cbf-4eec-b106-7b246034bdeb_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\7eebf7ce-850a-4be2-b396-88ae03970959_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\7eebf7ce-850a-4be2-b396-88ae03970959_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\85436c73-73b5-44db-b8a6-fc20c37a4cf2_chocolatechip.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\85436c73-73b5-44db-b8a6-fc20c37a4cf2_chocolatechip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\865ea9bf-cc4f-4815-9422-365078f78ae1_63971154.webp",
+      "PackagePath": "staticwebassets\\Website\\img\\865ea9bf-cc4f-4815-9422-365078f78ae1_63971154.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\89722dca-6803-475b-8c57-f74d0e2bdf19_icecreamlogo.png",
+      "PackagePath": "staticwebassets\\Website\\img\\89722dca-6803-475b-8c57-f74d0e2bdf19_icecreamlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\8df4362f-19a8-4b8b-8437-af09286b185c_download-removebg-preview (17).png",
+      "PackagePath": "staticwebassets\\Website\\img\\8df4362f-19a8-4b8b-8437-af09286b185c_download-removebg-preview (17).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\8e36967d-7991-43f3-9cc6-25258b0eb3ec_image-removebg-preview (5).png",
+      "PackagePath": "staticwebassets\\Website\\img\\8e36967d-7991-43f3-9cc6-25258b0eb3ec_image-removebg-preview (5).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\8f99c4dc-3809-427a-999f-21df5849b105_fruitandnuticecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\8f99c4dc-3809-427a-999f-21df5849b105_fruitandnuticecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\901befc5-8032-4a82-833a-0d9b5d485e00_Blueberry-Ice-cream-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\901befc5-8032-4a82-833a-0d9b5d485e00_Blueberry-Ice-cream-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\956c8555-56b1-41c3-a3ba-3886de292b03_butterscotchicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\956c8555-56b1-41c3-a3ba-3886de292b03_butterscotchicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\98ee6efb-447a-4bf7-add0-67a26030fbf9_dbbbba36a37c42f3ed061453e8bce21f.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\98ee6efb-447a-4bf7-add0-67a26030fbf9_dbbbba36a37c42f3ed061453e8bce21f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\9950e0ad-6bb3-4e2c-88c9-f73f94f2977b_purpleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\9950e0ad-6bb3-4e2c-88c9-f73f94f2977b_purpleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\9e72ff74-4b38-4704-9ef7-da009e063bcf_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\9e72ff74-4b38-4704-9ef7-da009e063bcf_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\9e7bc733-d82c-46b0-b3cf-5d8f4baa5f95_63971154.webp",
+      "PackagePath": "staticwebassets\\Website\\img\\9e7bc733-d82c-46b0-b3cf-5d8f4baa5f95_63971154.webp"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\9f14992f-7d6c-4ac9-8650-230adabeba5d_cherryicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\9f14992f-7d6c-4ac9-8650-230adabeba5d_cherryicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\a2339523-780f-4c6e-9a4e-77bc3df1205b_carousal2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\a2339523-780f-4c6e-9a4e-77bc3df1205b_carousal2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\a7675e66-8e46-4118-91bb-6b89d34eedab_strawberryandvanillaicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\a7675e66-8e46-4118-91bb-6b89d34eedab_strawberryandvanillaicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\a892d6c1-f96e-41fe-86c3-5c761aa0bb8c_chocolate.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\a892d6c1-f96e-41fe-86c3-5c761aa0bb8c_chocolate.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\a9765576-9454-4a2b-8e4a-76aab6cb6c9c_butterscotchicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\a9765576-9454-4a2b-8e4a-76aab6cb6c9c_butterscotchicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\aad761bd-7241-41b2-b068-254c68c329b1_download.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\aad761bd-7241-41b2-b068-254c68c329b1_download.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\abba3d96-fb89-4041-a4e4-f240fb95b9a5_1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\abba3d96-fb89-4041-a4e4-f240fb95b9a5_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\adc4b999-6ac1-4836-832b-c6537e63e7f6_CashewCaramelcrunchicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\adc4b999-6ac1-4836-832b-c6537e63e7f6_CashewCaramelcrunchicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\b2a24546-aaad-4525-aa9e-d49816159a8c_CashewCaramelcrunchicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\b2a24546-aaad-4525-aa9e-d49816159a8c_CashewCaramelcrunchicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\b72c5622-f579-42c2-8f3d-1c3efb83eabf_4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\b72c5622-f579-42c2-8f3d-1c3efb83eabf_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\b92e727d-179b-43ea-b552-0ba8b6f6ce54_purpleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\b92e727d-179b-43ea-b552-0ba8b6f6ce54_purpleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\bb89777b-917f-4863-8827-fce2c2182ff9_chocolatechip.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\bb89777b-917f-4863-8827-fce2c2182ff9_chocolatechip.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\bce6875d-ae05-44be-a35e-e2b7ab2d51ee_bananachocolatechipicecream.jpeg",
+      "PackagePath": "staticwebassets\\Website\\img\\bce6875d-ae05-44be-a35e-e2b7ab2d51ee_bananachocolatechipicecream.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\c4bc0a6f-9187-43ff-9c81-dbd1804d015a_2.png",
+      "PackagePath": "staticwebassets\\Website\\img\\c4bc0a6f-9187-43ff-9c81-dbd1804d015a_2.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\c56e9771-e322-49c1-8270-19be90d61eaa_Rose-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\c56e9771-e322-49c1-8270-19be90d61eaa_Rose-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\c701a122-9e40-4d1d-9228-0b0b3d2a5827_mangoicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\c701a122-9e40-4d1d-9228-0b0b3d2a5827_mangoicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\ce05f9f3-1742-46a8-8714-56e8e6683324_pistachoicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\ce05f9f3-1742-46a8-8714-56e8e6683324_pistachoicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\dd02a2ca-f977-494a-b4e0-d4b462c0c885_download-removebg-preview (25).png",
+      "PackagePath": "staticwebassets\\Website\\img\\dd02a2ca-f977-494a-b4e0-d4b462c0c885_download-removebg-preview (25).png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\e07b97fb-b977-46aa-97b3-e91d676400d5_blackcurranticecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\e07b97fb-b977-46aa-97b3-e91d676400d5_blackcurranticecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\e1612084-c7dd-475b-913e-7d9bd40161c9_Mango-Ice-Cream-Recipe.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\e1612084-c7dd-475b-913e-7d9bd40161c9_Mango-Ice-Cream-Recipe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\e2699ddf-d182-4d89-9da5-d5700f5037fa_1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\e2699ddf-d182-4d89-9da5-d5700f5037fa_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\eb98bb15-c80b-4ae4-b5d7-5220909d024d_blackcurranticecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\eb98bb15-c80b-4ae4-b5d7-5220909d024d_blackcurranticecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\eef7ecaa-63b1-4d93-996d-8a5c6b628075_Blueberry-Ice-cream-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\eef7ecaa-63b1-4d93-996d-8a5c6b628075_Blueberry-Ice-cream-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\f3ba3b35-58d1-44b8-8b17-5eba8984940e_pineappleicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\f3ba3b35-58d1-44b8-8b17-5eba8984940e_pineappleicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\f7074a89-d517-4e29-b0aa-4f7e3985b27d_pistachoicecream.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\f7074a89-d517-4e29-b0aa-4f7e3985b27d_pistachoicecream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\icecreamourfeatures.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\icecreamourfeatures.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\mra.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\mra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\portfolio-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\product-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\product-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\product-3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\product-4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\product-5.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\promotion.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\promotion.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\service-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\service-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\service-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\service-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\service-3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\service-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\service-4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\service-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\Website\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\js\\main.js",
+      "PackagePath": "staticwebassets\\Website\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\isotope\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\isotope\\isotope.pkgd.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\images\\close.png",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\images\\next.png",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\images\\prev.png",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\lightbox\\links.php",
+      "PackagePath": "staticwebassets\\Website\\lib\\lightbox\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\Website\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\Website\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\mail\\contact.js",
+      "PackagePath": "staticwebassets\\Website\\mail\\contact.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\mail\\contact.php",
+      "PackagePath": "staticwebassets\\Website\\mail\\contact.php"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\mail\\jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets\\Website\\mail\\jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_code.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_code.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_custom-forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_input-group.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_input-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_jumbotron.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_media.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_media.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_print.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_size.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_align.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_display.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_float.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_interactions.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_interactions.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_overflow.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_overflow.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_position.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_stretched-link.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_text.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\Website\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\Website\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\PC\\source\\repos\\NewIcecream\\Icecream\\Icecream\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Icecream.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Icecream.props",
+      "PackagePath": "build\\Icecream.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Icecream.props",
+      "PackagePath": "buildMultiTargeting\\Icecream.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Icecream.props",
+      "PackagePath": "buildTransitive\\Icecream.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,116 @@
+﻿@{
+    Layout = "~/Views/Shared/Website_Layout.cshtml";
+}
+@model IEnumerable<Icecream.Models.Recipe>
+
+
+
+<style>
+    #modalregbtn{
+        border-radius:10px;
+        border:none;
+        background: linear-gradient(34deg, rgba(54,203,255,1) 14%, rgba(255,0,168,1) 98%);
+    }
+</style>
+<!-- Header Start -->
+<div class="jumbotron jumbotron-fluid page-header" style="margin-bottom: 90px;">
+    <div class="container text-center py-5">
+        <h1 class="text-white display-3 mt-lg-5">Recipes</h1>
+        <div class="d-inline-flex align-items-center text-white">
+            <p class="m-0"><a class="text-white" href="">Home</a></p>
+            <i class="fa fa-circle px-3"></i>
+            <p class="m-0">Recipes</p>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+<!-- Products Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="section-title position-relative text-center mb-5">Our Delicious Recipes</h1>
+            </div>
+        </div>
+        <div class="row">
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var recipe in Model)
+                {
+                    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                                @if (recipe.Status == "Pro")
+                                {
+                                    <h4 class="font-weight-bold text-white mb-0">👑<br>Pro</h4>
+                                }
+                                else
+                                {
+                                    <h4 class="font-weight-bold text-white mb-0">💎Free</h4>
+                                }
+                            </div>
+                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
+                                <img class="rounded-circle w-100 h-100" src="~/Website/img/@Html.DisplayFor(modelItem => recipe.Path)" style="object-fit: cover;">
+                            </div>
+                            <h5 class="font-weight-bold mb-4">@Html.DisplayFor(modelItem => recipe.Name)</h5>
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <a asp-controller="Website" asp-action="website_recipedetail" asp-route-id="@recipe.Id" class="btn btn-sm btn-secondary">Read Recipe</a>
+                            }
+                            else if (recipe.Status == "Pro")
+                            {
+                                <a data-toggle="modal" data-target="#staticBackdrop" class="btn btn-sm btn-secondary">Read Recipe</a>
+                            }
+                            else
+                            {
+                                
+                                <div class="col-12 text-center">
+                                    <a asp-controller="Website" asp-action="website_recipedetail" asp-route-id="@recipe.Id" class="btn btn-sm btn-secondary">Read Recipe</a>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No recipes available.</p>
+                <div class="col-12 text-center">
+                    <a href="" class="btn btn-primary py-3 px-5">Load More</a>
+                </div>
+            }
+            <div class="col-12 text-center">
+                <a href="" class="btn btn-primary py-3 px-5">Load More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Products End -->
+<!-- Modal 2-->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="staticBackdropLabel">Its A Pro Recipe!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row p-4">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="text-primary">In Order To Access Our Pro Recipes</h1>
+                        <p class="text-secondary">Register Now With Our Resonable Pricing</p>
+                        <Button id="modalregbtn">
+                            <a class="nav-link text-white mr-3" asp-area="Identity" asp-page="/Account/Register">Register Now</a>
+                        </Button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+@* Modals End*@
